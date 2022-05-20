@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"./BACKEND/index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"./*",
+            "dest": "./BACKEND/index.js"
+        }
+    ]
+}
